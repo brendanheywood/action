@@ -12,5 +12,5 @@ jobs:
             echo "::endgroup::"
       - run: |
             echo "::group::my group with an error"
-            echo "::error file=app.js,line=1,col=5,endColumn=7::Missing semicolon"
+            echo "::error file=README.md,line=2,col=5,endColumn=7::Missing semicolon"
             echo "::endgroup::"
